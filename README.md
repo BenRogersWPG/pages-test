@@ -8,7 +8,7 @@
 
 |                                         Image                                         |     Text     | Example |
 | :-----------------------------------------------------------------------------------: | :----------: | :--------: |
-|       <img src="/Media/Badge/Mystery/mystery.png" alt="Mystery" width="200"/>        |   Mystery    |   (???)    |
+|       <img src="Media/Badge/Mystery/mystery.png" alt="Mystery" width="200"/>        |   Mystery    |   (???)    |
 
 
 <!-- </div> -->
