@@ -1,9 +1,9 @@
 <div align="center">
   <h1></h1>
 <img src="https://user-images.githubusercontent.com/65187002/172940015-d9d072e7-c47d-4ddd-83f6-8e7717a721b8.png">
-  
+
 <br>
-  
+
 <h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1>
 
 <br>
@@ -84,8 +84,9 @@
 
 <br>
 
-<h1>❌ Badges no longer earnable ❌</h1>
+<h1>Previous Challenges</h1>
 <br>
+<h2>Readers' Picks Challenge (5)</h2>
 
 <table>
 <tr align="center" valign="center" valign="center">
@@ -94,9 +95,9 @@
   <th>How to get</th>
 </tr>
 <tr align="center" valign="center">
-  <td><img src="https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png" width="200px" height="200px"></td>
-  <td>Mars 2020 Contributor</td>
-  <td>Contributed code to a repository used in the<br><a href="https://github.com/readme/featured/nasa-ingenuity-helicopter">Mars 2020 Helicopter Mission</a></td>
+  <td><img src="Media/Badges/Sapphire-Reader/sapphire-reader.png" alt="Sapphire Reader" width="200"/></td>
+  <td>Sapphire Reader</td>
+  <td>You're a gem! You collected this achievement by completing a book during this challenge. How many more achievements can you collect?</td>
 </tr>
 <tr align="center" height="50px" valign="center">
   <td colspan="3"><br>⋮<br><br></td>
@@ -105,5 +106,5 @@
   <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1></td>
 </tr>
 </table>
-  
+
 </div>
