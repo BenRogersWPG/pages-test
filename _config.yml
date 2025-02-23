@@ -3,10 +3,11 @@ author:
   name: Ben Rogers
   url: https://github.com/BenRogersWPG
 title: Title of Your Post
+description: 🧪 A Complete Test for your eyes 🧪
 defaults:
   - scope:
       path: ""
     values:
       image: /Media/Badges/Sapphire-Reader/sapphire-reader.png
-      height: 839
-      width: 1405
+    height: 839
+    width: 1405
