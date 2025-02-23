@@ -8,3 +8,5 @@ defaults:
       path: ""
     values:
       image: /Media/Badges/Sapphire-Reader/sapphire-reader.png
+      height: 839
+      width: 1405
