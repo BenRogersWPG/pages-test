@@ -1,1 +1,5 @@
 theme: jekyll-theme-slate
+author:
+  name: My Name
+  url: https://example.com/
+title: Title of Your Post
