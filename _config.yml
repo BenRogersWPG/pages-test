@@ -4,8 +4,8 @@ plugins:
 author:
   name: Ben Rogers
   url: https://github.com/BenRogersWPG
-title: Title of Your Post
 description: 🧪 A Complete Test for your eyes 🧪
+title: Title of Your Post
 defaults:
   - scope:
       path: ""
