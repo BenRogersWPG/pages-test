@@ -15,3 +15,6 @@ layout:
 sitemap: false
 page.title: Another way to add title
 site.tagline: tagline!
+site.title: site title
+site.description: site desc
+page.description: page desc
