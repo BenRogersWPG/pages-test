@@ -1,4 +1,6 @@
 theme: jekyll-theme-slate
+plugins:
+    - jekyll-sitemap
 author:
   name: Ben Rogers
   url: https://github.com/BenRogersWPG
@@ -11,3 +13,5 @@ defaults:
       image: /Media/Badges/Sapphire-Reader/sapphire-reader.png
     height: 839
     width: 1405
+layout:
+sitemap: false
