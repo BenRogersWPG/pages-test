@@ -16,3 +16,4 @@ defaults:
 layout:
 sitemap: false
 page.title: Another way to add title
+site.tagline: tagline!
