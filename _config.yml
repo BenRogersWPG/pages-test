@@ -1,5 +1,10 @@
 theme: jekyll-theme-slate
 author:
-  name: My Name
-  url: https://example.com/
+  name: Ben Rogers
+  url: https://github.com/BenRogersWPG
 title: Title of Your Post
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /Media/Badges/Sapphire-Reader/sapphire-reader.png
