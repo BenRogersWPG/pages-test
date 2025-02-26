@@ -21,17 +21,17 @@
 <tr align="center" valign="middle">
   <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Epic Quest" width="200"/></td>
   <td>Epic Quest</td>
-  <td>Collect this achievement when you read one of the most loved fantasy titles by readers.</td>
+  <td>z.</td>
 </tr>
 <tr align="center" valign="middle">
   <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Buzzy Books" width="200"/></td>
   <td>Buzzy Books</td>
-  <td>Collect this achievement when you complete one of these reader favorites</td>
+  <td>y</td>
 </tr>
 <tr align="center" valign="middle">
   <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Era Explorer" width="200"/></td>
   <td>Era Explorer</td>
-  <td>Collect this achievement when you read one of the most popular historical fiction novels, according to readers.</td>
+  <td>x</td>
 </tr>
 <tr align="center" height="50px" valign="middle">
   <td colspan="3"><br>⋮<br><br></td>
@@ -56,12 +56,12 @@
 <tr align="center" valign="center">
   <td><img src="Media/Badges/January/january.png" alt="January Reader" width="200"/></td>
   <td>January Reader</td>
-  <td>Read at least one book in the month of January</td>
+  <td>a</td>
 </tr>
 <tr align="center" valign="center">
   <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="February Reader" width="200"/></td>
   <td>February Reader</td>
-  <td>Read at least one book in the month of February</td>
+  <td>b</td>
 </tr>
 <tr align="center" height="50px" valign="center">
   <td colspan="3"><br>⋮<br><br></td>
@@ -86,7 +86,7 @@
 <tr align="center" valign="center">
   <td><img src="Media/Badges/Sapphire-Reader/sapphire-reader.png" alt="Sapphire Reader" width="200"/></td>
   <td>Sapphire Reader</td>
-  <td>You're a gem! You collected this achievement by completing a book during this challenge. How many more achievements can you collect?</td>
+  <td>c</td>
 </tr>
 <tr align="center" height="50px" valign="center">
   <td colspan="3"><br>⋮<br><br></td>
