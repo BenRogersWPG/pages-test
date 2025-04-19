@@ -37,6 +37,9 @@
     {% include head-custom.html %}
     <meta name="robots" content="noindex" />
     <link rel="icon" href="Media/Favicon/favicon.png" sizes="48x48"><link rel="apple-touch-icon-precomposed" href="Media/Favicon/favicon.png" sizes="48x48"><link rel="msapplication-square48x48logo" href="Media/Favicon/favicon.png" sizes="48x48">
+    {% if page.amp %}
+    <link rel="amphtml" href="{{site.url}}{{site.baseurl}}/amp{{ page.url }}">
+    {% endif %}
   </head>
 
   <body header-desktop="fixed" header-mobile="auto" theme="light">
