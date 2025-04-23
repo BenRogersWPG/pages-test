@@ -1,5 +1,4 @@
 <div align="center">
-  <h1></h1>
 
 <h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1>
 
