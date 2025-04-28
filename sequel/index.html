@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="QQuUpBfDUPVufg1NB_pcUWzAkkwTlyflZY1piUjqbHU" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        vertical-align: middle;
+      }
+
+    </style>
+
+    <title>pages-test (sequel)</title>
+    <meta name="generator" content="Jekyll v3.10.0" />
+    <meta property="og:title" content="pages-test" />
+    <meta name="author" content="Ben Rogers" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Testing (Description)" />
+    <meta property="og:description" content="Testing" />
+    <link href="/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css">
+    <link rel="canonical" href="https://benrogerswpg.github.io/pages-test/" />
+    <meta property="og:url" content="https://benrogerswpg.github.io/pages-test/" />
+    <meta property="og:site_name" content="pages-test" />
+    <meta property="og:image" content="https://benrogerswpg.github.io/pages-test/Media/Badges/Sapphire-Reader/sapphire-reader.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://benrogerswpg.github.io/pages-test/Media/Badges/Sapphire-Reader/sapphire-reader.png" />
+    <meta property="twitter:title" content="pages-test" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Ben Rogers","url":"https://github.com/BenRogersWPG"},"description":"Testing","headline":"pages-test","image":"https://benrogerswpg.github.io/pages-test/Media/Badges/Sapphire-Reader/sapphire-reader.png","name":"pages-test","url":"https://benrogerswpg.github.io/pages-test/"}</script>
+
+    {% include head-custom.html %}
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="Media/Favicon/favicon.png" sizes="48x48"><link rel="apple-touch-icon-precomposed" href="Media/Favicon/favicon.png" sizes="48x48"><link rel="msapplication-square48x48logo" href="Media/Favicon/favicon.png" sizes="48x48">
+    <link rel="shortcut icon" href="Media/Favicon/favicon_144.png" sizes="144x144" type="image/png"/>
+	<link rel="apple-touch-icon" href="Media/Favicon/favicon_144.png" sizes="144x144" type="image/png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="Media/Favicon/favicon_192.png">
+    {% if page.amp %}
+    <link rel="amphtml" href="{{site.url}}{{site.baseurl}}/amp{{ page.url }}">
+    {% endif %}
+  </head>
+
+  <body header-desktop="fixed" header-mobile="auto" theme="light">
+
+    <!-- HEADER -->
+    <header class="mobile" id="header-mobile">
+        <div class="header-container">
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <a href="/" title="Ben"><span class="header-title-pre"></span>Home</a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle-mobile">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="menu" id="menu-mobile"><a class="menu-item" title="TBD" href="#"> About </a><a class="menu-item"
+                    href="https://github.com/BenRogersWPG" title="GitHub" rel="noopener noreferrer" target="_blank"><i
+                        class="fab fa-github fa-fw"></i> </a> | <a onclick="lightDark()" class="menu-item theme-switch"
+                    title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a></div>
+        </div>
+    </header>
+
+    <header class="desktop" id="header-desktop">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Ben"><span class="header-title-pre"></span>Home</a>
+            </div>
+            <div class="menu">
+                <div class="menu-inner"><a class="menu-item" title="TBD" href="#"> About </a><a class="menu-item"
+                        href="https://github.com/BenRogersWPG" title="GitHub" rel="noopener noreferrer"
+                        target="_blank"><i class="fab fa-github fa-fw"></i> </a> | <a onclick="lightDark()"
+                        class="menu-item theme-switch" title="Switch Theme">
+                        <i class="fas fa-adjust fa-fw"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        {{ content }}
+
+    </main>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+  <script type="text/javascript">function lightDark() {
+        var element = document.body;
+        if (element.getAttribute("theme") == "dark") {
+            element.setAttribute("theme", "light");
+        } else {
+            element.setAttribute("theme", "dark");
+        }
+    }
+
+</script>
+</html>
