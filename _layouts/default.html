@@ -36,48 +36,65 @@
 
     {% include head-custom.html %}
     <meta name="robots" content="noindex" />
-    <link rel="icon" href="Media/Favicon/favicon.png" sizes="48x48"><link rel="apple-touch-icon-precomposed" href="Media/Favicon/favicon.png" sizes="48x48"><link rel="msapplication-square48x48logo" href="Media/Favicon/favicon.png" sizes="48x48">
-    <link rel="shortcut icon" href="Media/Favicon/favicon_144.png" sizes="144x144" type="image/png"/>
-	<link rel="apple-touch-icon" href="Media/Favicon/favicon_144.png" sizes="144x144" type="image/png"/>
-    <link rel="icon" type="image/png" sizes="192x192" href="Media/Favicon/favicon_192.png">
+    <link rel="icon" href="/Media/Favicon/favicon_192.png" sizes="192x192"><link rel="apple-touch-icon-precomposed" href="/Media/Favicon/favicon_192.png" sizes="192x192"><link rel="msapplication-square48x48logo" href="/Media/Favicon/favicon.png" sizes="48x48">
+    <link rel="shortcut icon" href="/Media/Favicon/favicon_144.png" type="image/png"/>
+	<link rel="apple-touch-icon" href="/Media/Favicon/favicon_144.png" type="image/png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="/Media/Favicon/favicon_192.png">
     {% if page.amp %}
     <link rel="amphtml" href="{{site.url}}{{site.baseurl}}/amp{{ page.url }}">
     {% endif %}
   </head>
 
   <body header-desktop="fixed" header-mobile="auto" theme="light">
-
+    <a class="skip-link" href="#main-content" title="Skip to main content" role="link">Skip to content</a>
     <!-- HEADER -->
-    <header class="mobile" id="header-mobile">
-        <div class="header-container">
-            <div class="header-wrapper">
-                <div class="header-title">
-                    <a href="/" title="Ben"><span class="header-title-pre"></span>Home</a>
-                </div>
-                <div class="menu-toggle" id="menu-toggle-mobile">
-                    <span></span><span></span><span></span>
-                </div>
+    <nav class="header-container mobile" id="header-mobile">
+        <ul>
+            <div class="header-title">
+                <li><a href="/" title="Home"><span class="header-title-pre"></span>Home</a></li>
             </div>
-            <div class="menu" id="menu-mobile"><a class="menu-item" title="TBD" href="#"> About </a><a class="menu-item"
-                    href="https://github.com/BenRogersWPG" title="GitHub" rel="noopener noreferrer" target="_blank"><i
-                        class="fab fa-github fa-fw"></i> </a> | <a onclick="lightDark()" class="menu-item theme-switch"
-                    title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw"></i>
-                </a></div>
-        </div>
-    </header>
+        </ul>
+        <label for='menu' tabindex="0" class="menu-icon">
+            <svg class="open light" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <svg class="open dark" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                <path d="M4 18L20 18" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 12L20 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4 6L20 6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <svg class="close light" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z" fill="#000000"/>
+            </svg>
+            <svg class="close dark" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.207 6.207a1 1 0 0 0-1.414-1.414L12 10.586 6.207 4.793a1 1 0 0 0-1.414 1.414L10.586 12l-5.793 5.793a1 1 0 1 0 1.414 1.414L12 13.414l5.793 5.793a1 1 0 0 0 1.414-1.414L13.414 12l5.793-5.793z" fill="#ffffff"/>
+            </svg>
+        </label>
+        <input id='menu' type='checkbox' />
+        <ul class="menu-inner">
+            <li><a title="About page" href="/about/"> About </a></li>
+            <li><a class="menu-item"
+            href="https://github.com/BenRogersWPG" title="GitHub" rel="noopener noreferrer" target="_blank">
+                GitHub Profile</a></li>
+                <li><a href="#" onclick="lightDark(); return false;" class="menu-item theme-switch"
+            title="Switch Theme">
+            Switch Theme</a></li>
+        </ul>
+    </nav>
 
     <header class="desktop" id="header-desktop">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="Ben"><span class="header-title-pre"></span>Home</a>
+                <a href="/" title="Home"><span class="header-title-pre"></span>Home</a>
             </div>
             <div class="menu">
-                <div class="menu-inner"><a class="menu-item" title="TBD" href="#"> About </a><a class="menu-item"
+                <div class="menu-inner"><a class="menu-item" title="About page" href="/about/"> About </a> | <a class="menu-item"
                         href="https://github.com/BenRogersWPG" title="GitHub" rel="noopener noreferrer"
-                        target="_blank"><i class="fab fa-github fa-fw"></i> </a> | <a onclick="lightDark()"
+                        target="_blank">GitHub Profile</a> | <a href="#" onclick="lightDark(); return false;"
                         class="menu-item theme-switch" title="Switch Theme">
-                        <i class="fas fa-adjust fa-fw"></i>
+                        Switch Theme
                     </a>
                 </div>
             </div>
@@ -85,7 +102,7 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main>
+    <main id="main-content">
 
         {{ content }}
 
@@ -100,15 +117,20 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-  </body>
-  <script type="text/javascript">function lightDark() {
-        var element = document.body;
-        if (element.getAttribute("theme") == "dark") {
-            element.setAttribute("theme", "light");
-        } else {
-            element.setAttribute("theme", "dark");
+        <script>
+        function lightDark() {
+            const body = document.body;
+            const currentTheme = body.getAttribute("theme");
+            const newTheme = currentTheme === "dark" ? "light" : "dark";
+            body.setAttribute("theme", newTheme);
+            localStorage.setItem("theme", newTheme);
         }
-    }
 
-</script>
+        // Load saved theme on page load
+        document.addEventListener("DOMContentLoaded", function () {
+            const savedTheme = localStorage.getItem("theme") || "light";
+            document.body.setAttribute("theme", savedTheme);
+        });
+    </script>
+  </body>
 </html>
