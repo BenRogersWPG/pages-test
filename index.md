@@ -18,17 +18,17 @@
   <th>How to get</th>
 </tr>
 <tr align="center" valign="middle">
-  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Epic Quest" width="200"/></td>
+  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Epic Quest" width="200" loading="lazy"/></td>
   <td>Epic Quest</td>
   <td>z.</td>
 </tr>
 <tr align="center" valign="middle">
-  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Buzzy Books" width="200"/></td>
+  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Buzzy Books" width="200" loading="lazy"/></td>
   <td>Buzzy Books</td>
   <td>y</td>
 </tr>
 <tr align="center" valign="middle">
-  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Era Explorer" width="200"/></td>
+  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Era Explorer" width="200" loading="lazy"/></td>
   <td>Era Explorer</td>
   <td>x</td>
 </tr>
@@ -53,12 +53,12 @@
   <th>How to get</th>
 </tr>
 <tr align="center" valign="center">
-  <td><img src="Media/Badges/January/january.png" alt="January Reader" width="200"/></td>
+  <td><img src="Media/Badges/January/january.png" alt="January Reader" width="200" loading="lazy"/></td>
   <td>January Reader</td>
   <td>a</td>
 </tr>
 <tr align="center" valign="center">
-  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="February Reader" width="200"/></td>
+  <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="February Reader" width="200" loading="lazy"/></td>
   <td>February Reader</td>
   <td>b</td>
 </tr>
@@ -83,7 +83,7 @@
   <th>How to get</th>
 </tr>
 <tr align="center" valign="center">
-  <td><img src="Media/Badges/Sapphire-Reader/sapphire-reader.png" alt="Sapphire Reader" width="200"/></td>
+  <td><img src="Media/Badges/Sapphire-Reader/sapphire-reader.png" alt="Sapphire Reader" width="200" loading="lazy"/></td>
   <td>Sapphire Reader</td>
   <td>c</td>
 </tr>
