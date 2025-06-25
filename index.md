@@ -141,22 +141,22 @@
 <br>
 
 <table>
-<tr align="center" valign="middle">
+<tr>
   <th>Badge</th>
   <th>Name</th>
   <th>How to get</th>
 </tr>
-<tr align="center" valign="middle">
+<tr>
   <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Epic Quest" width="200" loading="lazy"/></td>
   <td>Epic Quest</td>
   <td>z.</td>
 </tr>
-<tr align="center" valign="middle">
+<tr>
   <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Buzzy Books" width="200" loading="lazy"/></td>
   <td>Buzzy Books</td>
   <td>y</td>
 </tr>
-<tr align="center" valign="middle">
+<tr>
   <td><img src="Media/Badges/Buzzy-Books/buzzy-books.png" alt="Era Explorer" width="200" loading="lazy"/></td>
   <td>Era Explorer</td>
   <td>x</td>
@@ -164,7 +164,7 @@
 <tr align="center" height="50px" valign="middle">
   <td colspan="3"><br>⋮<br><br></td>
 </tr>
-<tr align="center" valign="middle">
+<tr>
   <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1></td>
 </tr>
 </table>
