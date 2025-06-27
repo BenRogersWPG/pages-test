@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1>
-
+{% raw %}
 <br>
 <br>
 <br>
@@ -310,6 +310,7 @@
   <td colspan="3"><br>⋮<br><br></td>
 </tr>
 <tr align="center" valign="center">
+{% endraw %}
   <td colspan="3"><h1><a href="{{ site.github.repository_url }}">View FULL list on GitHub</a></h1></td>
 </tr>
 </table>
