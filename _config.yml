@@ -18,3 +18,19 @@ site.tagline: tagline!
 site.title: site title
 site.description: site desc
 page.description: page desc
+
+
+kramdown:
+  input: GFM
+  html_to_native: true
+  template: :none
+  hard_wrap: false
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
+  parse_block_html: true
+  syntax_highlighter_opts:
+    span: false
+  html_output: html
